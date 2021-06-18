@@ -1,7 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './components/App';
-import * as serviceWorkerRegistration from './serviceWorker/serviceWorkerRegistration';
+import React from "react";
+import ReactDOM from "react-dom";
+
+import App from "./components/App";
+import * as serviceWorkerRegistration from "./serviceWorker/serviceWorkerRegistration";
 
 const root = document.getElementById("root");
 const renderApp = () => (
